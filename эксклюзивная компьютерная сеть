@@ -1,5 +1,5 @@
 print("\t эксклюзивная компьютерная сеть")
-print("\t олько для зарегистрированных пользователей !\n")
+print("\t только для зарегистрированных пользователей !\n")
 security = 0
 username = ""
 while not username:
@@ -8,10 +8,10 @@ while not username:
     while not password:
         password = input ("пароль: ")
         if username == "egor" and password == "egggor":
-            print ("здравствуй, Егор!")
+            print("здравствуй, Егор!")
             security = 3
         elif username == "guest" or password == "guest":
-            print("добро пожаловать к нам в гости.")
+            print("добро пожаловать, Гость.")
             ecurity = 1
         else:
 
