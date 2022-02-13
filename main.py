@@ -1,35 +1,9 @@
-# print ('опрос')
 
-# fname  ='egor'
-# lname = 'zuravliov'
 
-# print (fname)
-# print (lnam
-# input('нажмите Enter')
+import random
 
-# fname = str
-# print(fname)
-
-# a = input('ведите свое имя:')
-
-# b =int(input('ведите ваш возраст:'))
-
-# print(type(a))
-# print(type(b))
-# a = 10
-# c = str(a)
-# b = 2
-# print(c + b)
-# print("""тут что-то не так, \n не будь я д'Артаньян"-подумал он.""")
-
-string = "всем привет я люблю python"
-
-print(f'исходная фраза: {string}')
-
-print (f'\n когда я кричу: {string.upper()}')
-
-print (f'\n когда я говорю шопотом: {string. lower()}')
-
-print (f'\n с заменой: {string.replace("любл ","обожаю")}')
-
-input('введите ENTER для завершения )
+kubik1 = random.randint(1,6)
+kubik2 = random.randrange(6)+1
+total = kubik1 + kubik2
+print(f'при вашем броске выпало",kubik1, "и", kubik2, "очков \nв сумме, {total}')
+input("\n\n нажмите ентер чтобы выйти")
