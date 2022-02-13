@@ -1,9 +1,7 @@
+otvet = ""
+while otvet.lower() != "покупаю":
+    otvet = input ("купи слона!\n")
+    if otvet.lower() != "покупаю":
+        print (f"все говорят: {otvet},  ты возьми и купи слона! ")
+print("\nцена слона 1000$. деньги вперед")
 
-
-import random
-
-kubik1 = random.randint(1,6)
-kubik2 = random.randrange(6)+1
-total = kubik1 + kubik2
-print(f'при вашем броске выпало",kubik1, "и", kubik2, "очков \nв сумме, {total}')
-input("\n\n нажмите ентер чтобы выйти")
