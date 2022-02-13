@@ -1,0 +1,19 @@
+print("\t эксклюзивная компьютерная сеть")
+print("\t олько для зарегистрированных пользователей !\n")
+security = 0
+username = ""
+while not username:
+    username = input ("логин: ")
+    password = ""
+    while not password:
+        password = input ("пароль: ")
+        if username == "egor" and password == "egggor":
+            print ("здравствуй, Егор!")
+            security = 3
+        elif username == "guest" or password == "guest":
+            print("добро пожаловать к нам в гости.")
+            ecurity = 1
+        else:
+
+            print(" войти в систему не удалось. должно быть вы не зарегистрированы. \n")
+            input ("\n\n нажмите ентер чтобы выйти")
